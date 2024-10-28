@@ -1,0 +1,141 @@
+#presentation {color: rgb(47,65,86);font-family: "Roboto", sans-serif;
+  font-weight: 150;
+  font-style: normal;;
+font-size: 50px; line-height: 1.6; letter-spacing: 5px;
+font-weight: 100; }
+
+body { background-color: rgb(255,255,255);}
+
+h1 { font-family: "Cinzel", serif; ;
+	color: rgb(47,65,86);
+	font-weight: bold;}
+
+h2{ color: rgb(86,124,141); font-weight: bold; font-family: "Cinzel", serif;}
+
+body {font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+font-size: 35px; line-height: 1.6; letter-spacing: 5px;
+font-weight: 100; color: rgb(47,65,86); }
+
+a{text-decoration: none; font-size: 40px; font-family: "Roboto", sans-serif; font-weight: 600; letter-spacing: 1px}
+p{text-justify: center}
+ul{text-size: 100px;}
+
+		/*Custom design with class*/
+
+.container {
+		width: 100%;
+		max-width: 3000px;
+    margin: 10px auto;}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 250px;
+    }
+}
+
+
+.card-blue {
+		padding: 60px;
+    margin: 80px;
+    border-radius: 4px;
+    background: #C8D9E6;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  	text-align: center}
+
+ .btn-blue {
+	 	padding: 25px 30px;
+	 	background-color: rgb(77,106,140);
+		color: white;
+		border-radius: 10px;}
+
+	.btn-blue:hover {
+			color: rgb(180,180,180);
+			background-color: rgb(50, 69, 91);}
+
+.card-beige {
+		padding: 60px;
+    margin: 80px;
+    border-radius: 4px;
+    background: #F5EFEB;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  	text-align: center}
+
+
+ .list-horizontal{
+	 	list-style: none;
+	 	padding-left: 0px;}
+
+ 		.list-horizontal li {
+	 		display: inline;
+	 		padding: 60px;}
+
+ 		.list-horizontal i{
+	 		font-size: 100px;
+	 		color: rgb(77,106,140);}
+
+ 		.list-horizontal i:hover {
+ 			color: rgb(255,255,255);}
+
+
+ 			/*Custom design with id*/
+
+
+#presentation {
+	color: rgb(47,65,86);font-family: "Roboto", sans-serif;
+  font-weight: 150;
+  font-style: normal;
+	font-size: 50px; line-height: 1.6; letter-spacing: 5px;
+	font-weight: 100;}
+
+#presentation p {
+	margin-bottom: 60px;}
+
+#myprofilepic {
+  width: 15%;
+  height: auto;
+  border: 5px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgb(47,65,86);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
